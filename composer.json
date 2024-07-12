@@ -1,0 +1,15 @@
+{
+    "name": "dimax/sontigui_mlm",
+    "autoload": {
+        "psr-4": {
+            "Dimax\\SontiguiMlm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dimainc26",
+            "email": "dimainc26@gmail.com"
+        }
+    ],
+    "require": {}
+}
