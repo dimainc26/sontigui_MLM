@@ -2,7 +2,7 @@
     "name": "dimax/sontigui_mlm",
     "autoload": {
         "psr-4": {
-            "Dimax\\SontiguiMlm\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [
@@ -11,5 +11,9 @@
             "email": "dimainc26@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.6",
+        "robmorgan/phinx": "^0.16.1"
+    }
 }
